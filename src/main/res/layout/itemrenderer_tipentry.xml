@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="5dp">
+
+    <!-- Labels.
+    -->
+    <TextView
+        android:id="@+id/percentage_tv"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        tools:text="@string/percantage_ph_text"
+        android:textSize="24sp">
+    </TextView>
+    <TextView
+        android:id="@+id/tip_amount_tv"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        tools:text="@string/tip_amount_ph_text"
+        android:gravity="right"
+        android:textAlignment="gravity">
+    </TextView>
+    <TextView
+        android:id="@+id/total_charge_tv"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        tools:text="67.99"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:textSize="24sp">
+    </TextView>
+    <Button
+        android:id="@+id/delete_percentage_bt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_percentage_bt_text" />
+
+</LinearLayout>

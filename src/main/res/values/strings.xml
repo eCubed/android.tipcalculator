@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="percantage_ph_text">%</string>
+    <string name="tip_amount_ph_text">2.55</string>
+    <string name="total_charge_ph_text">67.99</string>
+    <string name="enter_charge_before_tip">Enter Charge Before Tip</string>
+    <string name="initial_charge_tb_dummy_text">12.50</string>
+    <string name="add_new_percentage">Add new percentage</string>
+    <string name="add_percentage">Add Percentage</string>
+    <string name="add_percentage_bt_text">Add</string>
+    <string name="cancel_tipentry_bt_text">Cancel</string>
+    <string name="delete_percentage_bt_text">X</string>
+</resources>
